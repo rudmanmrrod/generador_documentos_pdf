@@ -3,7 +3,7 @@
     @file formconfiguracion.cpp
     @brief Cuerpo del formulario para la configuración de formato
     @author Rodrigo Boet (rudmanmrrod at gmail.com)
-    @copyright <a href='http://conocimientolibre.cenditel.gob.ve/licencia-de-software-v-1-3/>Licencia de Software Versión 1.2</a>
+    @copyright <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU Public License versión 3 (GPLv3)</a>
 */
 
 #include "formconfiguracion.h"
@@ -72,8 +72,8 @@ void FormConfiguracion::on_guardar_clicked()
     else{
         QJsonObject config;
         config["cabecera"] = ui->cabeceraText->document()->toHtml();
-        config["presentacion"] = ui->presentacionText->document()->toHtml();
-        config["pie"] = ui->pieText->document()->toHtml();
+        config["presentacion"] = ui->presentacionText->document()->toPlainText();
+        config["pie"] = ui->pieText->document()->toPlainText();
 
         QFile save(QStringLiteral("config.dat"));
         if (!save.open(QIODevice::WriteOnly)) {

@@ -3,7 +3,7 @@
     @file formconfiguracion.h
     @brief Cuerpo del formulario para la configuración de formato
     @author Rodrigo Boet (rudmanmrrod at gmail.com)
-    @copyright <a href='http://conocimientolibre.cenditel.gob.ve/licencia-de-software-v-1-3/>Licencia de Software Versión 1.2</a>
+    @copyright <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU Public License versión 3 (GPLv3)</a>
 */
 #ifndef FORMCONFIGURACION_H
 #define FORMCONFIGURACION_H

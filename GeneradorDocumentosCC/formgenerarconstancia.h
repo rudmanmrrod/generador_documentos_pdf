@@ -3,7 +3,7 @@
     @file formgenerarconstancia.h
     @brief Cuerpo Principal de funciones del Sistema para Creación de archivos PDF
     @author Rodrigo Boet (rudmanmrrod at gmail.com)
-    @copyright <a href='http://conocimientolibre.cenditel.gob.ve/licencia-de-software-v-1-3/>Licencia de Software Versión 1.2</a>
+    @copyright <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU Public License versión 3 (GPLv3)</a>
 */
 #ifndef FORMGENERARCONSTANCIA_H
 #define FORMGENERARCONSTANCIA_H
